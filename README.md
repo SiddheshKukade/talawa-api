@@ -1,4 +1,4 @@
-# Talawa API - Documentation especially made for @SiddheshKukade Only for the Documentaion and Personal Understanding for  the talwa-api
+# Talawa API - Documentation especially made for @SiddheshKukade Only for the Documentaion and Personal Understanding for the talwa-api
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![GitHub stars](https://img.shields.io/github/stars/PalisadoesFoundation/talawa-api.svg?style=social&label=Star&maxAge=2592000)](https://github.com/PalisadoesFoundation/talawa-api)
@@ -17,16 +17,19 @@ Core features include:
 4.  Recurring meetings
 5.  Facilities registrations
 
-`talawa` is based on the original `quito` code created by the [Palisadoes Foundation](http://www.palisadoes.org) as part of its annual Calico Challenge program. Calico provides paid summer internships for Jamaican university students to work on selected open source projects. They are mentored by software professionals and receive stipends based on the completion of predefined milestones. Calico was started in 2015. Visit [The Palisadoes Foundation's website](http://www.palisadoes.org/) for more details on its origin and activities.
+`talawa` is based on the original `quito` [ I could not find anything about quito but there are some `patoo` projects in the palisadoes archieve ] code created by the [Palisadoes Foundation](http://www.palisadoes.org) as part of its annual Calico Challenge program. Calico provides paid summer internships for Jamaican university students to work on selected open source projects. They are mentored by software professionals and receive stipends based on the completion of predefined milestones. Calico was started in 2015. Visit [The Palisadoes Foundation's website](http://www.palisadoes.org/) for more details on its origin and activities.
 
 ## Talawa Components
 
 `talawa` has these major software components:
 
+# TALAWA IS AIMING FOR CREATING A COMMUNIY CENTRIC APP
+
 1. **talawa**: [A mobile application with social media features](https://github.com/PalisadoesFoundation/talawa)
-1. **talawa-api**: [An API providing access to user data and features](https://github.com/PalisadoesFoundation/talawa-api)
-1. **talawa-admin**: [A web based administrative portal](https://github.com/PalisadoesFoundation/talawa-admin)
-1. **talawa-docs**: [The online documentation website](https://github.com/PalisadoesFoundation/talawa-docs)
+   -- for members of comminities
+1. **talawa-api**: [An API providing access to user data and features](https://github.com/PalisadoesFoundation/talawa-api) -- to provide the data required for the `talawa` and admin `apps`
+1. **talawa-admin**: [A web based administrative portal](https://github.com/PalisadoesFoundation/talawa-admin) -- Only for the org admins and moderators to manage the organization events and permissions and plugins
+1. **talawa-docs**: [The online documentation website](https://github.com/PalisadoesFoundation/talawa-docs) -- will contain the guides
 
 ## Documentation
 
@@ -39,4 +42,5 @@ Core features include:
 
 ## Image Upload
 
-To enable image upload functionalities create an images folder in the root of the project
+# To enable image upload functionalities create an images folder in the root of the project
+
