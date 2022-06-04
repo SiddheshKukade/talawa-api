@@ -45,3 +45,4 @@ Core features include:
 # To enable image upload functionalities create an images folder in the root of the project
 ![image](https://user-images.githubusercontent.com/65951872/171988418-2b1f2aa1-5934-4f7c-8015-ff970daf4110.png)
 
+# More Info to add here : 
