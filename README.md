@@ -44,3 +44,4 @@ Core features include:
 
 # To enable image upload functionalities create an images folder in the root of the project
 
+# More Info to add here : 
