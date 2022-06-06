@@ -11,11 +11,13 @@
  * Every step displays whether it has been
  * executed successfully or not
  */
-const path = require('path');
-const display_about = require('./setup/Display_About');
-const install_dependencies = require('./setup/Install_Dependencies');
-const user_input = require('./setup/User_Input');
-const start_application = require('./setup/Start_Application');
+
+// IT IS MAINLY CREATED FOR THE  SETUP OF THE POJECT WITH DIFFERENT CONFIGURTION OPTION 
+const path = require('path');  // The node:path module provides utilities for working with file and directory paths. 
+const display_about = require('./setup/Display_About'); // displays content from the about.md file 
+const install_dependencies = require('./setup/Install_Dependencies'); //Code to install the dependencies
+const user_input = require('./setup/User_Input'); //  Code to provide choice for configuration
+const start_application = require('./setup/Start_Application'); // Code to show command to start the application and the installtion process.
 
 /**
  * This asynchronous function runs the setup process
