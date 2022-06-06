@@ -5,10 +5,10 @@
  * if the user chooses so.
  */
 const input = require('./utils/Input.js');
-const display_heading = require('./utils/Display_Heading');
-const set_user_configuration = require('./Set_User_Configuration');
+const display_heading = require('./utils/Display_Heading'); // displat in box
+const set_user_configuration = require('./Set_User_Configuration'); //
 
-const user_input = async (path) => {
+const user_input = async (path) => { // gets the path of .env file 
   try {
     //Display the message
     display_heading('SET USER CONFIGURATION');
@@ -26,9 +26,9 @@ const user_input = async (path) => {
         message: '->',
       },
     ];
-
     //Take user input
     const response = await input(questions);
+    // accpeting the yes or no from the user
 
     //If user chooses to set the user configuration,
     //then proceed with the step

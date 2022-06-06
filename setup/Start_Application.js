@@ -5,7 +5,7 @@
  */
 const chalk = require('chalk');
 const boxen = require('boxen');
-const display_heading = require('./utils/Display_Heading');
+const display_heading = require('./utils/Display_Heading'); 
 
 const start_application = async () => {
   try {

@@ -7,7 +7,7 @@
 const fs = require('fs');
 const chalk = require('chalk');
 const display_heading = require('./utils/Display_Heading');
-const input = require('./utils/Input');
+const input = require('./utils/Input'); 
 const check_url = require('./utils/Check_Mongo_URL.js');
 
 /**
@@ -59,9 +59,9 @@ const set_user_configuration = async (path) => {
         message: 'MONGO_DB_URL',
       },
     ];
-
+// this is maybe thhe question object format for the inquirer library
     //Take user input
-    const response = await input(questions);
+    const response = await input(questions);//receives response in form of array
 
     //Check if all fields have been filled
     if (
@@ -74,7 +74,7 @@ const set_user_configuration = async (path) => {
     }
 
     //Validate the MongoDB URL
-    const isValidURL = await check_url(response['MONGO_DB_URL']);
+    const isValidURL = await check_url(response['MONGO_DB_URL']); // checks the URL by connecting to that database asynchronously
 
     //If the URL is valid, then save it in .env file
     if (isValidURL) {
